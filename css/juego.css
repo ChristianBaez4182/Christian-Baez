@@ -1,0 +1,94 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(https://c.pxhere.com/photos/71/ba/wood_green_turquoise_water_blind_nature_background_cracks-939318.jpg!d);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: purple;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+  color: #000;
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.pieza
+{
+  width: 33.333%;
+  height: 33.333%;
+  float: left;
+}
+
+#juego
+{
+  width: 600px;
+  height: 600px;
+  background-color: lightblue;
+}
+
+.pieza img
+{
+  width: 100%;
+  border: 2px solid lightblue;
+  box-sizing: border-box;
+}
+
+#footer
+{
+  text-align: center;
+  padding-top:8px; 
+  background-color: purple;
+  padding-bottom: 4px;
+  font-family: "Chiller";
+  color: white;
+  font-size: 50px;
+}
+
+h1
+{
+  background-color: lightblue;
+  text-align: center;
+  font-family:"ChopinScript";
+  font-size: 40px;
+  border-radius: 40px 40px;
+}
+
+#instrucciones
+{
+  font-family: "Chiller";
+  font-style: underline;
+  color: black;
+  font-size: 40px;
+}
